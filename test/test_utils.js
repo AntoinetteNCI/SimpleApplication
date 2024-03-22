@@ -1,5 +1,5 @@
 const fs = require("fs");
-const { expect } = require("chai");
+const chai = await import("chai");
 const ejs = require("ejs");
 
 // Load the EJS template file
